@@ -1,0 +1,42 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/0.10.25/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'owner',
+1 verbose cli   'ls',
+1 verbose cli   'wearegeek' ]
+2 info using npm@1.3.24
+3 info using node@v0.10.25
+4 verbose url raw wearegeek
+5 verbose url resolving [ 'https://registry.npmjs.org/', './wearegeek' ]
+6 verbose url resolved https://registry.npmjs.org/wearegeek
+7 info trying registry request attempt 1 at 16:04:01
+8 http GET https://registry.npmjs.org/wearegeek
+9 http 404 https://registry.npmjs.org/wearegeek
+10 silly registry.get cb [ 404,
+10 silly registry.get   { date: 'Fri, 07 Feb 2014 08:04:03 GMT',
+10 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B)',
+10 silly registry.get     'content-type': 'application/json',
+10 silly registry.get     via: '1.1 varnish',
+10 silly registry.get     'cache-control': 'max-age=0',
+10 silly registry.get     'content-length': '52',
+10 silly registry.get     'accept-ranges': 'bytes',
+10 silly registry.get     age: '0',
+10 silly registry.get     'x-served-by': 'cache-v37-ASH, cache-hk91-HKG',
+10 silly registry.get     'x-cache': 'MISS, MISS',
+10 silly registry.get     'x-cache-hits': '0, 0',
+10 silly registry.get     'x-timer': 'S1391760242.916233540,VS0,VS108,VE128,VE249',
+10 silly registry.get     'keep-alive': 'timeout=10, max=50',
+10 silly registry.get     connection: 'Keep-Alive' } ]
+11 error owner ls Couldn't get owner data wearegeek
+12 error 404 'wearegeek' is not in the npm registry.
+12 error 404 You should bug the author to publish it
+12 error 404
+12 error 404 Note that you can also install from a
+12 error 404 tarball, folder, or http url, or git url.
+13 error System Darwin 13.0.0
+14 error command "/usr/local/Cellar/node/0.10.25/bin/node" "/usr/local/bin/npm" "owner" "ls" "wearegeek"
+15 error cwd /Users/tim.zhang/projects/nodejs/wearegeek
+16 error node -v v0.10.25
+17 error npm -v 1.3.24
+18 error code E404
+19 verbose exit [ 1, true ]

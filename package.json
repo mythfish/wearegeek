@@ -1,6 +1,6 @@
 {
-  "name": "weixin-robot-example",
-  "version": "0.0.3",
+  "name": "wearegeek",
+  "version": "0.0.1",
   "main": "app.js",
   "dependencies": {
     "express": "~3.0",
@@ -8,7 +8,8 @@
     "underscore": "~1.4",
     "debug": "~0.7.2",
     "js-yaml": "~2.0.3",
-    "weixin-robot": "~0.4.0"
+    "weixin-robot": "~0.4.0",
+    "connect-mongo": "*"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
@@ -28,7 +29,7 @@
     "webot",
     "wechat"
   ],
-  "description": "weixin-robot 模块示例",
+  "description":"WeAreGeek 我们是极客",
   "repository": "https://github.com/node-webot/webot-example.git",
   "author": "Jesse Yang <jyyjcc@gmail.com>",
   "contributors": [
